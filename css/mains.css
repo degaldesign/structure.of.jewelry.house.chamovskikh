@@ -1,0 +1,390 @@
+@font-face {
+  font-family: "SegoeUI-Light";
+  src: url("../type/SegoeUI-Light.ttf");
+  src: url("../type/SegoeUI-Light.ttf?lefix") format("truetype")
+}
+@font-face {
+  font-family: "SegoeUI";
+  src: url("../type/SegoeUI.ttf");
+  src: url("../type/SegoeUI.ttf?lefix") format("truetype")
+}
+@font-face {
+  font-family: "SegoeUI-SemiBold";
+  src: url("../type/SegoeUI-SemiBold.ttf");
+  src: url("../type/SegoeUI-SemiBold.ttf?lefix") format("truetype")
+}
+@font-face {
+  font-family: "SegoeUI-Bold";
+  src: url("../type/SegoeUI-Bold.ttf");
+  src: url("../type/SegoeUI-Bold.ttf?lefix") format("truetype")
+}
+@font-face {
+  font-family: "SegoeUI-Italic";
+  src: url("../type/SegoeUI-Italic.ttf");
+  src: url("../type/SegoeUI-Italic.ttf?lefix") format("truetype")
+}
+@font-face {
+  font-family: "SegoeUI-BoldItalic";
+  src: url("../type/SegoeUI-BoldItalic.ttf");
+  src: url("../type/SegoeUI-BoldItalic.ttf?lefix") format("truetype")
+}
+@font-face {
+ font-family: "TT Ramillas Trial Italic";
+  src: url("../type/TT Ramillas Trial Italic.ttf");
+  src: url("../type/TT Ramillas Trial Italic.ttf?lefix") format("truetype");
+}
+@font-face {
+ font-family: "TT Ramillas Trial ExtraLight";
+  src: url("../type/TT Ramillas Trial ExtraLight.ttf");
+  src: url("../type/TT Ramillas Trial ExtraLight.ttf") format("truetype");
+}
+@font-face {
+ font-family: "TT Ramillas Trial Medium Italic";
+  src: url("../type/TT Ramillas Trial Medium Italic.ttf");
+  src: url("../type/TT Ramillas Trial Medium Italic.ttf") format("truetype");
+}
+@font-face {
+ font-family: "TT Ramillas Trial Light";
+  src: url("../type/TT Ramillas Trial Light.ttf");
+  src: url("../type/TT Ramillas Trial Light.ttf?lefix") format("truetype");
+}
+@font-face {
+  font-family: "Intro-Light";
+  src: url("../type/Intro-Light.ttf");
+  src: url("../type/Intro-Light.ttf?lefix") format("truetype")
+}
+
+html, body{
+  overflow-x: hidden;
+  align-items: center;
+  margin: 0;
+  scrollbar-width: none;
+}
+
+header {
+    display:block;
+    max-width: 100%;
+}
+
+.content {
+  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+  flex: 1 1;
+
+}
+.container {
+  left: 0;
+  top: 0;
+  max-width: 1440px;
+  min-height: 100%;
+  padding: 2%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0%;
+}
+
+.card {
+  border-radius: 25px;
+  position: relative;
+  max-width: 100%;
+  min-width: none;
+  margin-top: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: auto;
+  padding: 15px;
+  padding-bottom: 25px;
+  borde: 1px solid black;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.8s ease, box-shadow 0.8s ease;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+}
+
+.cards {
+  border-radius: 25px;
+  position: relative;
+  max-width: 100%;
+  min-width: none;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: auto;
+  padding: 15px;
+  padding-bottom: 25px;
+  border: 1px solid black;
+  transition: transform 0.8s ease, box-shadow 0.8s ease;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+}
+
+.card:hove {
+  transform: translate(0px, -10px);
+  text-decoration: none;
+  border: 1px solid black;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contain {
+  width: 200px;
+  height: 300px;
+}
+
+.maintitle {
+  text-align: center;
+  text-decoration: none;
+  font-family: "TT Ramillas Trial ExtraLight";
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.littletitle {
+  text-align: center;
+  text-decoration: none;
+  font-family: "TT Ramillas Trial ExtraLight";
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.littlesubtitle {
+  text-align: center;
+  font-family: "TT Ramillas Trial Italic";
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.littletext {
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-family: "TT Ramillas Trial Light";
+}
+
+.title {
+  text-align: center;
+  text-decoration: none;
+  font-family: "TT Ramillas Trial ExtraLight";
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.subtitle {
+  text-align: center;
+  font-family: "TT Ramillas Trial Italic";
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.text {
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: "TT Ramillas Trial Light";
+
+}
+
+.textpre {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: "TT Ramillas Trial Light";
+
+}
+
+.footer {
+  display: flex;
+  margin-top: 2%%;
+  justify-content: space-between;
+  background-color: #272ebf;
+  border-radius: 10px;
+  padding: 2.7%;
+  flex-direction: row;
+  font-family: "FT88-Gothique";
+  font-size: 13px;
+  box-shadow: 0 0 30px #ff00ff;
+}
+.footer a {
+  color: #ff00ff;
+  text-decoration: none;
+
+}
+.footer li {
+  list-style-type:  none;
+  text-transform: uppercase;
+  text-transform: none;
+  padding: 1%;
+  align-self: center;
+  margin-left: 3%;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+.pres {
+  font-family: "TT Ramillas Trial Light";
+  text-align: center;
+  flex-direction: row;
+  max-width: 100%;
+  padding-left:2%;
+  padding-right: 2%;
+  text-decoration: none;
+  margin-top: 100px;
+}
+
+.pre {
+  font-family: "TT Ramillas Trial Light";
+  text-align: center;
+  flex-direction: row;
+  max-width: 100%;
+  padding-left:2%;
+  padding-right: 2%;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.news {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.header {
+  position: fixed;
+  align-self: center;
+  display: flex;
+  padding: 2%;
+  justify-content: space-between;
+  z-index: 100;
+  font-size: 20px;
+  background-color: lightgray;
+  border-radius: 0;
+  top: 0;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 20px;
+  box-shaow: 0px 0px 25px #6C767E;
+  background-image: url("../img/AdobeStock_302663014.mov");
+}
+
+.ticker {
+  margin-top: 3px;
+  align-self: center;
+  display: flex;
+  position: relative;
+  font-family: "Intro-Light";
+  font-size: 14px;
+  letter-spacing: 3px;
+  colo: #990E25;
+  color: white;
+  width: 3000px;
+  max-height: 20px;
+  animation: kers 20s linear infinite;
+
+}
+
+.bottom {
+  font-family: "SegoeUI-Italic";
+  margin-right: 2%;
+  margin-bottom: 5px;
+  color: #272ebf;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+
+.bottom:hover {
+  margin-right: 2%;
+  color: #990E25;
+  text-decoration: line-through;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+
+
+.tic {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  position: relative;
+  font-family: "FT88-Ghotique";
+  color: #990E25;
+  margin-top: 90px;
+
+}
+
+@keyframes kers {
+from {
+    transform: translateX(-1000px);
+  };
+to {
+    transform: translateX(1000px);
+  }
+}
+
+.logo {
+  position: absolute;
+    z-index: 1;
+    margin: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    width: 50px;
+    background-color: black;
+    box-shadow: 20px 0px 10px black;, -20px 0px 10px black;
+
+}
+
+@media (max-width: 767px) {
+  .news {
+    flex-direction: column;
+  }
+  .header {
+    height: 15px;
+  }
+
+  .menuu {
+    margin-top: 20px;
+  }
+
+  .ticker {
+    font-size: 12px;
+  }
+
+  .pres {
+  margin-top: 60px;
+}
+}
+
+.card img {
+  height: auto;
+  width: 100%;
+}
+
+.card a {
+font-family: "SegoeUI-BoldItalic";
+color: #272ebf;
+text-decoration: none;
+}
+
+.card a:hover {
+color: #272ebf;
+text-decoration: line-through;
+}

@@ -1,3 +1,6 @@
+
+
+
 @font-face {
   font-family: "SegoeUI-Light";
   src: url("../type/SegoeUI-Light.ttf");
@@ -19,9 +22,9 @@
   src: url("../type/SegoeUI-Bold.ttf?lefix") format("truetype")
 }
 @font-face {
-  font-family: "SegoeUI-Italic";
-  src: url("../type/SegoeUI-Italic.ttf");
-  src: url("../type/SegoeUI-Italic.ttf?lefix") format("truetype")
+  font-family: "TT Ramillas Trial Light Italic";
+  src: url("../type/TT Ramillas Trial Light Italic.ttf");
+  src: url("../type/TT Ramillas Trial Light Italic.ttf?lefix") format("truetype")
 }
 @font-face {
   font-family: "SegoeUI-BoldItalic";
@@ -141,7 +144,7 @@ header {
   font-family: "TT Ramillas Trial ExtraLight";
   font-size: 32px;
   margin-bottom: 10px;
-  color: black;
+  color: #990E25;
 }
 
 .littletitle {
@@ -150,12 +153,12 @@ header {
   font-family: "TT Ramillas Trial ExtraLight";
   font-size: 14px;
   margin-bottom: 10px;
-  color: black;
+  color: #990E25;
 }
 
 .littlesubtitle {
   text-align: center;
-  font-family: "TT Ramillas Trial Italic";
+  font-family: "TT Ramillas Trial Light Italic";
   font-size: 12px;
   margin-bottom: 10px;
   margin-top: 0;
@@ -174,12 +177,12 @@ header {
   font-family: "TT Ramillas Trial ExtraLight";
   font-size: 20px;
   margin-bottom: 10px;
-  color: black;
+  color: #990E25;
 }
 
 .subtitle {
   text-align: center;
-  font-family: "TT Ramillas Trial Italic";
+  font-family: "TT Ramillas Trial Light Italic";
   font-size: 18px;
   margin-bottom: 10px;
   margin-top: 0;
@@ -240,7 +243,8 @@ header a {
   padding-left:2%;
   padding-right: 2%;
   text-decoration: none;
-  margin-top: 100px;
+  margin-top: 70px;
+  color: #990E25;
 }
 
 .pre {
@@ -252,6 +256,7 @@ header a {
   padding-right: 2%;
   text-decoration: none;
   margin-top: 10px;
+  color: #990E25;
 }
 
 .news {

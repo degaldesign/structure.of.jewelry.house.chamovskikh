@@ -233,6 +233,7 @@ header {
 header a {
   color: white;
   text-decoration: none;
+  list-style-type:  none;
 }
 
 .pres {
@@ -267,6 +268,7 @@ header a {
 }
 
 .header {
+  list-style-type:  none;
   position: fixed;
   align-self: center;
   display: flex;

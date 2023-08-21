@@ -290,6 +290,7 @@ header a {
   display: flex;
   position: relative;
   font-family: "Intro-Light";
+  text-decoration: none;
   font-size: 14px;
   letter-spacing: 3px;
   colo: #990E25;

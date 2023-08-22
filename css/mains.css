@@ -204,6 +204,13 @@ header {
 
 }
 
+.textabout {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 10px;
+  font-family: "TT Ramillas Trial ExtraLight";
+}
+
 .footer {
   display: flex;
   margin-top: 2%%;

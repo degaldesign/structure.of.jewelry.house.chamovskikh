@@ -62,7 +62,7 @@ html, body{
   align-items: center;
   margin: 0;
   scrollbar-width: none;
-  background-color: #d7b56d;;
+  background-color: #990E25;
 }
 
 header {
@@ -163,7 +163,7 @@ header {
   font-family: "TT Ramillas Trial ExtraLight";
   font-size: 32px;
   margin-bottom: 10px;
-  color: #990E25;
+  color: white;
 }
 
 .littletitle {
@@ -283,7 +283,7 @@ header a {
   padding-right: 2%;
   text-decoration: none;
   margin-top: 10px;
-  color: #990E25;
+  color: white;
 }
 
 .news {
